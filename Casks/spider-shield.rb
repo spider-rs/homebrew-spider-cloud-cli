@@ -1,6 +1,6 @@
 cask "spider-shield" do
   version "0.1.16"
-  sha256 "d4f2ad36e44c93ee6b0b2ae4ce4fcb6a87029632bc9fb3062480e635a5669b44"
+  sha256 "fcfda2b44d5348aa57941ed2f9d3bc4dbc039348e966f04f555422fdaf89d01e"
 
   url "https://api.spider.cloud/data/download/shield/macos?version=#{version}&utm_source=homebrew"
   name "Spider Shield"
