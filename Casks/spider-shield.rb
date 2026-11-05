@@ -1,10 +1,11 @@
+# Rendered by spider-shield scripts/package-manifests.sh from the release's SHA256SUMS; bump with scripts/bump-cask.sh.
 cask "spider-shield" do
-  version "0.1.16"
-  sha256 "fcfda2b44d5348aa57941ed2f9d3bc4dbc039348e966f04f555422fdaf89d01e"
+  version "0.1.17"
+  sha256 "e2f2da54f4e63bd92329c67c11ff7984d5c386bb1bd0bcf93928f40be502cdaf"
 
   url "https://api.spider.cloud/data/download/shield/macos?version=#{version}&utm_source=homebrew"
   name "Spider Shield"
-  desc "System-wide firewall that blocks ads, trackers, malware and phishing"
+  desc "Blocks ads and trackers. Shield is free because it shares your connection"
   homepage "https://spider.cloud/shield"
 
   livecheck do
@@ -54,4 +55,6 @@ cask "spider-shield" do
         "~/Library/Saved Application State/com.spidercloud.shield.savedState",
         "~/Library/WebKit/com.spidercloud.shield",
       ]
+
+  caveats "Shield is free because it shares your connection. Terms: https://spider.cloud/eula#shield"
 end
