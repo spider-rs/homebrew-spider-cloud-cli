@@ -1,7 +1,7 @@
 # Rendered by spider-shield scripts/package-manifests.sh from the release's SHA256SUMS; bump with scripts/bump-cask.sh.
 cask "spider-shield" do
-  version "0.1.18"
-  sha256 "332b2cacdc03bff613304a9a97ddeddb80b5bacd7785ed943fdb9a94fbc3080a"
+  version "0.1.20"
+  sha256 "e9f47774b142406d8e20fc69f0427aded67e1801a100a45eac6474ccf8f9c334"
 
   url "https://api.spider.cloud/data/download/shield/macos?version=#{version}&utm_source=homebrew"
   name "Spider Shield"
