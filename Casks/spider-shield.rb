@@ -56,5 +56,5 @@ cask "spider-shield" do
         "~/Library/WebKit/com.spidercloud.shield",
       ]
 
-  caveats "Shield is free because it shares your connection. Terms: https://spider.cloud/eula#shield"
+  caveats "Shield is free because it shares your connection. Terms: https://spider.cloud/shield/terms/"
 end
